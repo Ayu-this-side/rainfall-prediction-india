@@ -1,0 +1,24 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Processed / cached data (regenerate from raw + code instead of committing)
+data/processed/
+nasa_power_cache/
+
+# OS / editor junk
+.DS_Store
+.vscode/*
+!.vscode/settings.json
+
+# Environment secrets (if you ever add API keys)
+.env
